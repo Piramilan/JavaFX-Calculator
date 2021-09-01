@@ -1,0 +1,25 @@
+.cal-button{
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-color: #1A1A1A;
+    -fx-background-radius: 50;
+    -fx-max-width: 45;
+    -fx-max-height: 45;
+}
+
+.number-btn{
+    -fx-progress-color: #ffffff;
+}
+
+.cal-button:hover{
+    /* -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color */
+    -fx-background-color: #2F2F2F;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em; /* 4 8 4 8 */
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+}
+
+.icon-color{
+    -fx-fill: #ffffff;
+}
